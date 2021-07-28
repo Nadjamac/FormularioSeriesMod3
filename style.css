@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.Principal{
+    justify-content: center;
+    background: #59429d;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color:white;
+    margin-left: 30%;
+}
+#subtitulo{
+font-family: sans-serif;
+    color:white;
+    margin-left: 30%;
+}
+
+fieldset{
+    border:0;
+}
+
+
+
+body{
+    background-color: darkmagenta;
+    font-family: sans-serif;
+    font-size:1rem;
+    color:rosybrown  ;
+    margin left: 36%;
+    margin top;2%;
+    justify-content:center;
+
+}
+
+input,select,textarea,button{
+    border-radius: 5px;
+    
+}
+
+.campo{
+    margin-bottom:1rem;
+
+}
+
+.campo label{
+    margin-bottom: 0.2rem;
+    color: #59429d;
+    display: block;
+}
+
+fieldset.grupo.campo{
+    float:left;
+    margin-right: 1rem;
+}
+
+.campo input [type="text"],.campo input[type="email"],.campo select,.campo textarea(
+    padding: 0.2 em;
+    border: 1px solid #59429d;
+    box-shadow:2px 2px 2px rgb(0,0,0,0.2);
+    display:block;
+
+)}
+
+campo select:option{
+    padding-right: 1em;
+}
+
+.campo input:focus,.campo select :focus ,.campo textarea:focus{
+    background-color: ;
+}
